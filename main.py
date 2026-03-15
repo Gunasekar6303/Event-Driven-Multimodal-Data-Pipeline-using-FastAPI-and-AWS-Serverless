@@ -4,7 +4,7 @@ import uuid
 
 app = FastAPI()
 
-BUCKET_NAME = "practice-bucket-for-lambda"
+BUCKET_NAME = "your s3 bucket name"
 
 s3 = boto3.client("s3")
 
